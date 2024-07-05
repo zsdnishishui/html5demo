@@ -24,8 +24,19 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<form action='http://127.0.0.1:8090/base/hello' method='post'>
+  <label>
+    <input type='text' name='username'/>
+  </label>
+  <label>
+    <input type='password' name='password'/>
+  </label>
+  <label>
+    <textarea name="message" rows="10" cols="30"></textarea>
+  </label>
+  <input type='submit' value='登录' />
+</form>
+
   <script src="js/app.js"></script>
 
 </body>
